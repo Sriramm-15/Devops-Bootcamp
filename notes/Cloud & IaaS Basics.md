@@ -13,7 +13,7 @@
   - Load Balancers
   - Networking resources, etc.
 
----
+--
 
 ## Droplets (Virtual Machines)
 - A **Droplet** = DigitalOcean’s virtual machine.
