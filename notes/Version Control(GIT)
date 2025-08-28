@@ -1,0 +1,46 @@
+Perfect 😄 here’s your **Git Cheat Sheet in table format**:
+
+---
+
+## 🚀 Git Command Cheat Sheet
+
+| **Command**                             | **Purpose**                                     |
+| --------------------------------------- | ----------------------------------------------- |
+| `git clone <repo_url>`                  | Create local copy of remote repo                |
+| `git init`                              | Initialize new git repo locally                 |
+| `git remote add origin <remote_repo>`   | Connect local repo to remote                    |
+| `git add <file>`                        | Stage changes                                   |
+| `git commit -m "message"`               | Save staged changes with message                |
+| `git status`                            | Check current state of repo                     |
+| `git log`                               | View commit history                             |
+| `git push`                              | Push commits to remote                          |
+| `git push --set-upstream origin master` | First push to remote master branch              |
+| `git pull`                              | Fetch + merge remote changes                    |
+| `git branch`                            | List branches                                   |
+| `git branch -d <branch>`                | Delete branch locally                           |
+| `git checkout <branch>`                 | Switch branch                                   |
+| `git checkout -b <branch>`              | Create new branch & switch                      |
+| `git merge <branch>`                    | Merge branch into current                       |
+| `git rebase <branch>`                   | Replay commits (cleaner history)                |
+| `git reset --hard HEAD~1`               | Reset to previous commit, discard changes       |
+| `git reset HEAD~1`                      | Reset to previous commit, keep changes          |
+| `git commit --amend`                    | Merge new changes into last commit              |
+| `git push --force`                      | Force push changes (use carefully)              |
+| `git revert <commit_hash>`              | Create new commit that reverts old one          |
+| `git stash`                             | Save unfinished changes temporarily             |
+| `git stash pop`                         | Re-apply stashed changes                        |
+| `git rm -r --cached <folder>`           | Remove folder from repo (keep locally)          |
+| `git rm --cached <file>`                | Remove file from repo (keep locally)            |
+| `rm -rf .git`                           | Remove Git from project (delete config/history) |
+
+---
+
+⚡ **Best Practices**
+
+* 1 branch per feature
+* Keep a `dev` branch as staging before `master/main`
+* Use pull/merge requests for reviews
+* Delete feature branches after merging
+* Always maintain a `.gitignore` file
+
+---
