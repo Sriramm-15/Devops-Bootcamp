@@ -1,3 +1,40 @@
  Here We deploy an application on a cloud sever
 * create a virtual server on cloud provider
 * Deploy app on server and configure access
+
+# DigitalOcean (Beginner Notes)
+
+## What is DigitalOcean?
+- **DigitalOcean** is a cloud provider.
+- It offers **Infrastructure as a Service (IaaS)**.
+- With it, you can create:
+  - Virtual Machines (called **Droplets**)
+  - Databases
+  - Load Balancers
+  - Networking resources, etc.
+
+---
+
+## Droplets (Virtual Machines)
+- A **Droplet** = DigitalOcean’s virtual machine.
+- You can choose:
+  - **Image** (e.g., Ubuntu, Docker pre-installed, etc.)
+  - **Size** (CPU, RAM, storage)
+  - **SSH Key** (for secure login without passwords)
+
+---
+
+## Why is it useful?
+- Very easy setup: just pick an image + size → VM ready.
+- Can run Docker containers inside Droplets.
+- Great for developers who want to quickly test & deploy apps.
+
+---
+
+## Networking with DigitalOcean
+- You can **network multiple Droplets** together.
+- You can **open ports** to the internet for external access.
+- Common uses:
+  - Expose a service like **Nexus** running directly on a VM.
+  - Expose a service like a **Docker container** (e.g., Jenkins) running inside a Droplet.
+
